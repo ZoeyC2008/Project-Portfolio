@@ -22,6 +22,15 @@ export default function Home() {
                     doorway poem
                 </Link>
             </div>
+
+            <div>
+                <Link
+                    to="/eng/tales"
+                    className={"font-bold text-xl"}
+                >
+                    Tales From A Mercurial Studio
+                </Link>
+            </div>
         </div>
     )
 }

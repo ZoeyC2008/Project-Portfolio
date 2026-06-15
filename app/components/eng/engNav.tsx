@@ -1,6 +1,6 @@
 import {Link} from "react-router";
 
-export default function MfgNav() {
+export default function EngNav() {
     return (
         <nav className="flex items-center justify-between items-center w-full bg-red-300 mb-4 text-orange-950 font-mono text-lg">
 
@@ -13,37 +13,21 @@ export default function MfgNav() {
 
             <ul className="flex flex-wrap pr-[2.5vw]">
                 <li className="">
-                    <Link to={"/"}
+                    <Link to={"/eng/doorway"}
                           className={"font-mono pr-2 border-r-2 border-orange-950 hover:text-cyan-700"}>
-                        SoftJaws
+                        Doorway
                     </Link>
                 </li>
 
                 <li>
                     <Link to={"/"}
-                    className={"font-mono pl-2 pr-2 border-r-2"}>
-                        CAD
+                          className={"font-mono pl-2 pr-2 border-r-2"}>
+                        Short Stories
                     </Link>
                 </li>
 
                 <li>
-                    Fountain Pen |
-                </li>
-
-                <li>
-                    Vice
-                </li>
-
-                <li>
-                    Belt Buckle
-                </li>
-
-                <li>
-                    Candle Holder
-                </li>
-
-                <li>
-                    Maze?
+                    Portfolio
                 </li>
 
             </ul>
