@@ -45,7 +45,7 @@ export default function CNC() {
                                 <ul className="list-disc pl-5">
                                     <li>Fusion 360</li>
                                     <li>Horizontal Band Saw</li>
-                                    <li>Tormach 5-axis CNC</li>
+                                    <li>Tormach 3-axis CNC</li>
                                     <li>Tormach desktop CNC</li>
                                     <li>45 degree engraving bit</li>
                                     <li>Sandpaper</li>
